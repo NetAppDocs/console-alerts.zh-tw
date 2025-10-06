@@ -18,25 +18,25 @@ summary: 如果您只是想快速找到問題的答案，那麼這個NetApp警�
 
 == 存取NetApp警報
 
-* NetApp警報 URL 是什麼？ *對於 URL，在瀏覽器中輸入： https://console.netapp.com/["https://console.netapp.com/"^]存取NetApp控制台。
+* NetApp警報 URL 是什麼？ *對於 URL，在瀏覽器中輸入： https://console.netapp.com/["https://console.netapp.com/"^]存取NetApp Console。
 
 *您需要許可證才能使用NetApp警報嗎？ *
 
-使用NetApp警報需要NetApp ONTAP 9.10 或更高版本的授權。許可證不需要輸入到NetApp Console 數位錢包。
+使用NetApp警報需要NetApp ONTAP 9.10 或更高版本的授權。許可證不需要輸入到NetApp Console數位錢包。
 
 您不需要擁有NetApp警報的試用授權。
 
-*如何啟用NetApp警報？ * NetApp警報不需要任何啟用。警報選項會在NetApp控制台左側導覽中自動啟用。
+*如何啟用NetApp警報？ * NetApp警報不需要任何啟用。警報選項會在NetApp Console左側導覽中自動啟用。
 
 首先，當您使用控制台代理時，它將包含適合NetApp警報的功能。
 
-** NetApp警報是否在標準、受限和私有模式下可用？ **  NetApp警報只能部署在NetApp控制台標準（公共）。
+** NetApp警報是否在標準、受限和私有模式下可用？ **  NetApp警報只能部署在NetApp Console標準（公共）。
 
-有關所有NetApp控制台服務中這些模式的說明，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["NetApp控制台部署模式"^]。
+有關所有NetApp Console服務中這些模式的說明，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["NetApp Console部署模式"^]。
 
-**如何處理存取權限？ **只有NetApp控制台組織管理員才有能力啟動NetApp警報並發現工作負載（因為這涉及承諾使用資源）。
+**如何處理存取權限？ **只有NetApp Console組織管理員才有能力啟動NetApp警報並發現工作負載（因為這涉及承諾使用資源）。
 
-根據登入使用者對該NetApp控制台組織中叢集資源的存取權限，向他們顯示警報。
+根據登入使用者對該NetApp Console組織中叢集資源的存取權限，向他們顯示警報。
 
 
 

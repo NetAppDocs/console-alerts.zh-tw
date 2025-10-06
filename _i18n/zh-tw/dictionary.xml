@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f4b2cfc6ddef927318d045f16b38d151" category="doc">BlueXP alerts清單頁面</block>
+  <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">您可以快速識別容量低或效能低的ONTAP叢集、評估可用性程度並識別安全風險。您可以查看與容量、效能、保護、可用性、安全性和配置相關的警報。</block>
+  <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">警報詳情</block>
+  <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">您可以深入了解警報詳細資訊並找到建議。</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">查看連結到ONTAP System Manager 的叢集詳細信息</block>
+  <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">透過BlueXP alerts，您可以查看與ONTAP儲存環境相關的警報並深入了解與ONTAP系統管理員相關的詳細資訊。</block>
+  <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">了解BlueXP alerts</block>
+  <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block> 。</block>
+  <block id="e2d159efa7a8b8226e5914e1a2875270" category="doc">BlueXP alerts現已升級ONTAP警報</block>
+  <block id="5928017639f3567a373281effc14e646" category="paragraph">BlueXP alerts已重新命名為ONTAP警報。</block>
+  <block id="0876dff5408aa260368cca439a8ae55f" category="paragraph">您可以透過選擇「NetApp Console」左側導覽列中的「*儲存*」&gt;「*警報*」來存取它。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP現在是NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
+  <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">有關更改的詳細信息，請參閱<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
+  <block id="030b7de018ed99bfa8db61b5e97e2599" category="summary">如果您只是想快速找到問題的答案，那麼這個NetApp警報常見問題解答可以為您提供協助。</block>
+  <block id="b1e2d6628693557f3a5a3ca3c4530250" category="doc">NetApp警報常見問題解答</block>
+  <block id="de6044ece395dfd765398ebdeb8dc2d2" category="paragraph">如果您只是想快速找到有關NetApp警報問題的答案，此常見問題解答可以提供協助。</block>
+  <block id="1e6fd63bf687deb60ecb0cdd4feac121" category="section-title">存取NetApp警報</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link"><block ref="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link-rx"></block></block>
+  <block id="de03422b430ee8a7d21f31600a14fa03" category="paragraph">* NetApp警報 URL 是什麼？ *對於 URL，在瀏覽器中輸入：<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block>存取NetApp Console。</block>
+  <block id="a7d8432241f3b13f346a19366473edb0" category="paragraph">*您需要許可證才能使用NetApp警報嗎？ *</block>
+  <block id="6d8154f15dd94ef7066769bc6604d73b" category="paragraph">使用NetApp警報需要NetApp ONTAP 9.10 或更高版本的授權。許可證不需要輸入到NetApp Console數位錢包。</block>
+  <block id="1bf50d5fcc503f9524f66780e661fc05" category="paragraph">您不需要擁有NetApp警報的試用授權。</block>
+  <block id="ba6fe9f7f33dacafd8c28fd30a4e1738" category="paragraph">*如何啟用NetApp警報？ * NetApp警報不需要任何啟用。警報選項會在NetApp Console左側導覽中自動啟用。</block>
+  <block id="571e529f0cb61c255c14f9ed7fe377a1" category="paragraph">首先，當您使用控制台代理時，它將包含適合NetApp警報的功能。</block>
+  <block id="6e4aaee8acfa05cb19526c98c1cd3c28" category="paragraph">** NetApp警報是否在標準、受限和私有模式下可用？ **  NetApp警報只能部署在NetApp Console標準（公共）。</block>
+  <block id="2a9ab4f690bade887dade42f4a0f412b" category="inline-link">NetApp Console部署模式</block>
+  <block id="1d2025502a826f4157380055e788ce54" category="paragraph">有關所有NetApp Console服務中這些模式的說明，請參閱<block ref="63e8b0eaab89868588f59e14953b3639" category="inline-link-rx"></block>。</block>
+  <block id="385d515a8ccb348b8e3fb198977fbe27" category="paragraph">**如何處理存取權限？ **只有NetApp Console組織管理員才有能力啟動NetApp警報並發現工作負載（因為這涉及承諾使用資源）。</block>
+  <block id="713658ac5caaebb5e5eaa4cee5dc25d4" category="paragraph">根據登入使用者對該NetApp Console組織中叢集資源的存取權限，向他們顯示警報。</block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">查看警報</block>
+  <block id="6cc9a992642ce4690d105ac184a67ee8" category="paragraph">**我需要等待多久才能開始收到警報？ **</block>
+  <block id="341e7ceedeb864cd8d795298ba6d763b" category="paragraph">等待最多 15 分鐘進行初始發現，然後等待最多 5 分鐘警報才會出現。各個警報之間有所不同。</block>
+  <block id="bd82420e5f9b04669d56e56e71f7312c" category="paragraph">**為什麼在沒有控制台代理的情況下無法使用直接模式查看ONTAP警報？ *</block>
+  <block id="1010fc3dc9e49d611b350bb91dce53db" category="paragraph">NetApp警報僅可使用內部標準控制台代理程式取得。使用直接模式不會監控集群，也不會顯示警報。</block>
+  <block id="e3ff16e21f6082f8d57e23f84439cd04" category="paragraph">**為什麼有些警報從警報列表頁面消失了？ **</block>
+  <block id="2b2c3c30eaf3e78010285ee747d45207" category="paragraph">警報功能可使某些警報保持活動狀態，並在滿足計數器條件或達到一定時間段後關閉它們。各個警報之間有所不同。</block>
+  <block id="e0da34134a1b328f6ccb76d662397ec6" category="paragraph">若要查看所有警報，請選擇“狀態”列過濾器並選擇“已關閉”選項。</block>
+  <block id="f39f0edd7fe5e18fbb584c564afa9b8c" category="section-title">資訊顯示</block>
+  <block id="90b65a8e54431c284a944ef2495d443c" category="paragraph">**什麼設備解析度最好？ **  NetApp警報的建議設備解析度為 1920x1080 或更高。</block>
+  <block id="036b094f4c535bf7c0faf82885715824" category="paragraph">**我該使用哪種瀏覽器？ **任何現代瀏覽器都可以使用。</block>
+  <block id="ab20d0570b05394ebda358cc9765f168" category="summary">透過存取NetApp Console中的ONTAP警報開始使用ONTAP警報。</block>
+  <block id="997b151c303e930be6eb11d07b750c9b" category="doc">訪問ONTAP警報</block>
+  <block id="d566990a945e68cbceb33542d8946e86" category="paragraph">您可以使用NetApp Console查看ONTAP警報。</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">了解有關登入的更多信息</block>
+  <block id="7f81f279fa77dc8c4ec817512c79430b" category="paragraph">若要登入NetApp Console，您可以使用您的NetApp支援網站憑證，也可以使用您的電子郵件和密碼註冊NetApp雲端登入。<block ref="83012c4a40bb3321733997744c83daa9" category="inline-link-rx"></block> 。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
+  <block id="6a65fb509b9c682f9df5eb122484e2f7" category="list-text">開啟 Web 瀏覽器並前往<block ref="d6205946f936217747639e85e1340e8f" category="inline-link-rx"></block>。</block>
+  <block id="94304f80962e8b0bea262a111465465e" category="paragraph">出現控制台登入頁面。</block>
+  <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">登入控制台。</block>
+  <block id="32b188043cb8e9a4b68b63905f06d4d5" category="list-text">從控制台左側導覽列中，選擇“*儲存*”&gt;“*警報*”。</block>
+  <block id="b80c68e1a6cb6ff2b0c33328d4c4aa30" category="paragraph">出現警報清單頁面。</block>
+  <block id="d0ca125912483904cd0260fb9c1c130e" category="inline-image-macro">ONTAP警報清單頁面</block>
+  <block id="f3f5e35860abd77bf5e9d880f733f305" category="paragraph"><block ref="f3f5e35860abd77bf5e9d880f733f305" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7f4aecb9c9fafdf0a312a2771b64979" category="summary">透過驗證對您的環境、網路存取、登入和 Web 瀏覽器的支援來開始使用ONTAP警報。</block>
+  <block id="21951dc427ffb108c0d2309da90bf3ad" category="doc">ONTAP警報前提條件</block>
+  <block id="2878a9b912d8edd1c746a281086859e4" category="paragraph">透過驗證操作環境的準備情況來開始使用ONTAP警報。</block>
+  <block id="2dff40a51039866cfa9877c71cf0946d" category="paragraph">要查看ONTAP警報，您需要滿足以下先決條件：</block>
+  <block id="6145de872df8cf84cefb3a07d478d33b" category="list-text">ONTAP 9.10 及更高版本。必須在NetApp Console系統頁面中發現內部部署系統。</block>
+  <block id="7226a116fcbbcf04521e1a358b285ccb" category="list-text">叢集管理員ONTAP權限</block>
+  <block id="8e10f87cfd1ee1b744931b15c636b85e" category="paragraph">許可證不需要輸入到NetApp Console數位錢包。</block>
+  <block id="3474a0af34c68595958d829df3074db7" category="list-text">在NetApp Console中：</block>
+  <block id="a521c7f037b86dd05ae77973da29af3d" category="list-text">具有NetApp本機 NAS 或 SAN 儲存的NetApp Console系統</block>
+  <block id="682404f179d47778d942c78f8aad3e5d" category="inline-link">NetApp Console文件用於設定控制台代理</block>
+  <block id="0776e8830963c44896a1eb4ac13b1aa1" category="list-text">必須在NetApp Console中設定本機區域的控制台代理程式。參考<block ref="3a58eba640811abd219444484fb7ea14" category="inline-link-rx"></block>。</block>
+  <block id="3718f5f2e70fdc64742e894a8b844896" category="paragraph">如果從控制台代理中刪除集群，則與該集群相關的警報將保留 90 天。此外，如果您變更控制台代理，警報仍會與原始叢集和代理保持關聯 90 天。如果您返回原始代理，您將再次看到這些警報。</block>
+  <block id="c7190e84056f6f7ebce94d1670008bb4" category="list-text">一個NetApp Console組織，其中至少有一個活動控制台代理連接到本地ONTAP叢集。所有來源和系統必須位於同一個NetApp Console組織中。</block>
+  <block id="94b79f48e2ccfdd5283d52b8ffb443f7" category="list-text">該組織中具有組織管理員權限的NetApp Console用戶，可以發現資源</block>
+  <block id="3405772d81d967f60af74e843b9c41ac" category="inline-link">標準NetApp Console要求</block>
+  <block id="033e6079c9941a911dded82a3f954dc1" category="list-text"><block ref="033e6079c9941a911dded82a3f954dc1" category="inline-link-rx"></block></block>
+  <block id="bd2a9e44ae67b6363d40e7023b1975c7" category="summary">只需幾個步驟即可開始使用ONTAP警報。</block>
+  <block id="ab7b94688a43f70e452ec72d6e01e779" category="doc">ONTAP警報快速啟動</block>
+  <block id="150e7563e7535b53321f3d2db0d27ec7" category="paragraph">以下是開始使用ONTAP警報所需步驟的概述。每個步驟中的連結都會將您帶到提供更多詳細資訊的頁面。</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>審查先決條件</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">確保您的環境符合這些要求</block>
+  <block id="5d0bd3e6409d405ee17df2011d3575e5" category="paragraph"><block ref="b2b5204beec9643a42fc982599cdc423" category="inline-link-macro-rx"></block> 。</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
+  <block id="768d4296fcd2a507ba3a9941ae4df47f" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>設定ONTAP警報</block>
+  <block id="6514a17fd8b81451fa538c01c099c5ae" category="inline-link-macro">在NetApp Console中配置控制台代理</block>
+  <block id="fd3a21b97d06d8c514575f0a7cefe079" category="paragraph"><block ref="ae4b9d708e0678f68b4c105b9b0591b5" category="inline-link-macro-rx"></block> 。</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>下一步是什麼？</block>
+  <block id="82a77cde8bb5266cf40fc8a254211ae3" category="paragraph">設定ONTAP警報後，您可以執行以下操作。</block>
+  <block id="a68cc2b6c1c2c8b9e9f66b53fa448022" category="inline-link-macro">在警報清單頁面查看儲存問題和潛在風險</block>
+  <block id="dd0992661d3a920b16a7c2795b9cd366" category="list-text"><block ref="24e8eb073a02ee555a5d57d98ab7c836" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d63c2786beb521865505852c24d3bbc3" category="inline-link-macro">在ONTAP系統管理器中查看警報詳細信息</block>
+  <block id="414ad1486187ff3c1de9f223f4a90b12" category="list-text"><block ref="e51d8f8d14c84f442ec45adf1927779a" category="inline-link-macro-rx"></block> 。</block>
+  <block id="3cd85fd670dfae6802e6410e62d90bfb" category="summary">若要查看ONTAP警報，請執行幾個步驟進行設定。</block>
+  <block id="9b98870a61e01e5b412af3b272db8094" category="doc">設定ONTAP警報</block>
+  <block id="20db98482b5f8e40001715aa9d4ecabf" category="paragraph">若要使用ONTAP警報，請執行幾個步驟進行設定。</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
+  <block id="20f8d4df820ee3c6f7d2384adc35406f" category="paragraph">在開始之前，請查看<block ref="b8a12953eaed5434208690571b21dc3b" category="inline-link-macro-rx"></block>以確保您的環境已準備就緒。</block>
+  <block id="67a50452f70d09a4796d712935acce40" category="inline-link">標準NetApp Console要求</block>
+  <block id="10d5c90fc807b2c9968a61c35be570c9" category="paragraph">審查<block ref="0f2cc189841820bbf400fd90cf6cb8ee" category="inline-link-rx"></block>。</block>
+  <block id="36ac020ea992572fe71a4d8e25c3367c" category="section-title">存取叢集資源</block>
+  <block id="7139521b714941d55112733b7cf03d53" category="paragraph">要查看警報，登入的使用者必須是NetApp Console組織的一部分，並且應該具有對叢集資源所需的存取權限。</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="section-title">建立控制台代理</block>
+  <block id="3dd7cacd77fb6e8057d9e217fd891a6f" category="paragraph">您應該聯絡您的NetApp銷售代表來嘗試或使用ONTAP警報。然後，當您使用控制台代理時，它將包含適合ONTAP警報的功能。</block>
+  <block id="039a0f51fabaf695c33b745ebbd147bf" category="inline-link">如何建立控制台代理</block>
+  <block id="8fed773d65475ff42b08b1ecb1f4159d" category="paragraph">要在NetApp Console中建立控制台代理，請參閱BlueXP文檔，其中描述了<block ref="a747c66fa3a9e5a767b0d1460e988f0c" category="inline-link-rx"></block>。</block>
+  <block id="6c823ff1b56d97271e2dbd9df851abea" category="paragraph">設定控制台代理並新增系統後，等待約 15 分鐘進行初始發現。</block>
+  <block id="a4df535abb0a890cc12d8f3f689cd6fc" category="summary">透過NetApp警報，您可以查看與ONTAP儲存系統相關的警報並深入了解與ONTAP系統管理員相關的詳細資訊。</block>
+  <block id="db7b178791e73d310772b22318d276a4" category="doc">查看ONTAP儲存系統中的警報詳細信息</block>
+  <block id="5bee998cea63cf3992ac05c0d970e3bc" category="paragraph">查看與您的ONTAP儲存系統相關的警報並深入了解詳細資訊。</block>
+  <block id="9f64c529078a13eebc43993d1ac578d4" category="section-title">查看警報詳細信息</block>
+  <block id="0aa8eee6dc5796fb05ecd4c09063d90a" category="inline-link-macro">登入NetApp Console</block>
+  <block id="d637e96d65eaafb224969ea924b4a31b" category="list-text"><block ref="51c2ef87d78b9f81e1888478d4847fb1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="dd29728715f5ca672672acc21b977d6a" category="list-text">從警報清單頁面中選擇警報。</block>
+  <block id="098e423bd0ee32c364dc743fff392233" category="inline-image-macro">警報詳細信息</block>
+  <block id="6d6b711c0023f5df6869f9738b247408" category="paragraph"><block ref="6d6b711c0023f5df6869f9738b247408" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e343346ee75f85e1816cdd01ca56792d" category="list-text">向下捲動以尋找建議的糾正措施。</block>
+  <block id="eb8303fe9491419d4ead82bfa9608f89" category="list-text">向下捲動以尋找與發出警報的物件相關的其他警報。</block>
+  <block id="4738ae4d419e1b8ae8c55bb48647f17b" category="section-title">在ONTAP System Manager 中查看有關叢集的詳細信息</block>
+  <block id="75b64c8cc2cc6461f64d999dd97415b2" category="list-text">從警報中，選擇頁面頂部的叢集名稱。</block>
+  <block id="0bcbc2fded8f028c3e76ed1c185d666a" category="paragraph">ONTAP系統管理員現在會顯示有關叢集的資訊。</block>
+  <block id="65e258b6ac9a03cbc11acfd695c940ce" category="summary">一目了然地了解您的ONTAP環境的健康狀況。您可以快速識別容量低或效能低的ONTAP叢集、衡量可用性程度、確定可用性並識別安全風險。</block>
+  <block id="2eb867d8ce3791fb94cfdab8c6ac78a0" category="doc">使用警報清單頁面查看ONTAP儲存中的潛在風險</block>
+  <block id="d9e9b6e7a93ba50ed35e625862dab349" category="paragraph">一目了然地查看有關ONTAP系統中潛在風險的資訊。您可以快速識別容量低或效能低的ONTAP叢集、衡量可用性程度、確定可用性並識別安全風險。</block>
+  <block id="92c6688b2aebbd7f306f07490427e63a" category="paragraph">您可以查看有關這些嚴重程度和影響區域的資訊：</block>
+  <block id="a3463ce74ef6d3d7aafb60fc0726d9ce" category="list-text">*嚴重程度*：嚴重、警告、訊息</block>
+  <block id="1c5882efccfb1ce6046da852a8583eb8" category="list-text">*影響領域*：容量、效能、可用性、保護、安全性、配置</block>
+  <block id="ac4b7d569a38793a92acd5f442401804" category="section-title">您可能會看到的警報</block>
+  <block id="75dbb090fe30b972f21176d5e902bbd6" category="paragraph">以下是顯示的一些警報。</block>
+  <block id="b4ce430460104f8cd9e73ce237c26273" category="paragraph">EMS 嚴重性透過以下方式對應到ONTAP警報嚴重性：</block>
+  <block id="91c761791147d91928659247c271d819" category="cell">EMS 警報嚴重程度：</block>
+  <block id="4d595396577f05096673175b8c59e1a9" category="cell">NetApp Console警報嚴重性：</block>
+  <block id="a06259142ffb0ecbfe14eae4658e10fd" category="cell">警報或緊急情況</block>
+  <block id="7e85bcb66fb9a809d5ab4f62a8b8bea8" category="cell">批判的</block>
+  <block id="cb5e100e5a9a3e7f6d1fd97512215282" category="cell">錯誤</block>
+  <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">沒有任何</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">低的</block>
+  <block id="7b83d3f08fa392b79e3f553b585971cd" category="cell">警告</block>
+  <block id="efd2af60c8501931cb9c736b5ad74f65" category="cell">注意</block>
+  <block id="1f48d99cd04299352fb1cfc658d86b35" category="cell">資訊</block>
+  <block id="426b60b96f19689fe0d9002d76f4ecfa" category="example-title">警報列表</block>
+  <block id="d712d7c120eeb1773e822680ae05e1e6" category="paragraph">嚴重程度警報：</block>
+  <block id="07924c9f11edc6dce661034be95eea23" category="list-text">聚合狀態不在線</block>
+  <block id="cd8715e2c61c160919c471d458f34912" category="list-text">磁碟故障</block>
+  <block id="7fd2d7dd529b8399307eba295b61ba41" category="list-text">SnapMirror滯後時間較長</block>
+  <block id="86b6c911199fbbc3f1eb9bb48dbeac84" category="list-text">卷狀態為離線</block>
+  <block id="251dfb413e6706021869a69f911a1722" category="list-text">違規使用量百分比</block>
+  <block id="6dfc7a1d3e7177289844685485b60333" category="paragraph">EMS警報：</block>
+  <block id="68312e4565de2800f938b104810df85e" category="list-text">防毒伺服器繁忙</block>
+  <block id="67138763af94cb16b8731cb643c19d09" category="list-text">AWS 憑證未初始化</block>
+  <block id="3294e7fb98db2e274fe298085409b43d" category="list-text">無法存取雲層</block>
+  <block id="c368f13ac2010057caf5a5f737a1ff11" category="list-text">磁碟停止服務</block>
+  <block id="68e372a9533db9f1009167981ec6816a" category="list-text">發現磁碟架電源</block>
+  <block id="cd15b8dfe06196bb36c3f01bf61bb243" category="list-text">磁碟架電源已移除</block>
+  <block id="888cc30ee74334fe6bcc7da9683a9548" category="list-text">FabricPool鏡像複製重新同步完成</block>
+  <block id="b3f64f74cfa68b9d9273714d12abde1f" category="list-text">FabricPool空間使用限制即將達到</block>
+  <block id="1062a5c87c81d5399b321535a61500b2" category="list-text">FabricPool空間使用量已達到限制</block>
+  <block id="17705794a65b95a1c8b74ac2210b8965" category="list-text">FC 目標連接埠指令超出</block>
+  <block id="b6556b04e20f707436c67a1a56576275" category="list-text">儲存池交還失敗</block>
+  <block id="e53dabd176c531c7832b7012ce67b097" category="list-text">HA 互連中斷</block>
+  <block id="c6ab7e74ccdd427238b6e1efb492170f" category="list-text">LUN 被破壞</block>
+  <block id="3abb2131a440928b050c2e8edf69401d" category="list-text">LUN 離線</block>
+  <block id="a8fb2d4668615c99a8d059affbe6cd22" category="list-text">主機風扇故障</block>
+  <block id="d68566c5b4b122118fbbd417a4264980" category="list-text">主機風扇處於警告狀態</block>
+  <block id="623b69fd62d13218cecda606713b9a46" category="list-text">超出每個使用者的最大會話數</block>
+  <block id="62c9b4a4bb67fa65a7daa64a38e92bd7" category="list-text">超出每個文件的最大開啟次數</block>
+  <block id="6a85357206771eef22386a802fa758d6" category="list-text">MetroCluster自動計劃外切換已停用</block>
+  <block id="7c13e07c8bd8e6ff962c7cafd1d1a6dc" category="list-text">MetroCluster監控</block>
+  <block id="e9c41a5d661c53796c05bc2c50b34f7a" category="list-text">NetBIOS 名稱衝突</block>
+  <block id="b9f7c1d1c6c8720b64e393cff38635a5" category="list-text">NFSv4 痛池耗盡</block>
+  <block id="a662add42742c1fa3d8a2948ec679396" category="list-text">節點恐慌</block>
+  <block id="673c9cb749a6c87d90677e56540016c5" category="list-text">節點根卷空間不足</block>
+  <block id="74f22088830d5b73900d650afa41b6b6" category="list-text">不存在的管理員共享</block>
+  <block id="642ca130535e44c6a6c23b26ff3e201f" category="list-text">防毒伺服器無回應</block>
+  <block id="c2ef4ca2490676426d41004ed902e321" category="list-text">沒有註冊的掃描引擎</block>
+  <block id="810c9aeab7ad4d2e0b8d494a3c0fd4ac" category="list-text">無 Vscan 連接</block>
+  <block id="688c4dedde96dd6405687b605a738c6c" category="list-text">NVMe 命名空間被破壞</block>
+  <block id="e0fd74d205a2c0efeb1aa85ab995741f" category="list-text">NVMe 命名空間離線</block>
+  <block id="ad0de762f84c09735c0f51f22e1b0751" category="list-text">NVMe 命名空間上線</block>
+  <block id="ff7b07c4a088c2e6514ed20c977afebc" category="list-text">NVMe-oF 許可證寬限期有效</block>
+  <block id="6911852fee5f58482b977dfa9e8b5a11" category="list-text">NVMe-oF 許可證寬限期已過</block>
+  <block id="34fc115596c046ddfb198b1a0918c528" category="list-text">NVMe-oF 許可證寬限期開始</block>
+  <block id="0af93bd4e12e413bd4f75779ca5fe3fc" category="list-text">NVRAM電池電量低</block>
+  <block id="13bd76a0c80421e4213cd354adec1f28" category="list-text">物件儲存主機無法解析</block>
+  <block id="b07ff64f0fd66d1ca0444e966351a716" category="list-text">物件儲存叢集間 LIF 故障</block>
+  <block id="14b95f6864656d1432576256c773fb6c" category="list-text">物件儲存簽章不匹配</block>
+  <block id="4b7fe47946422f99ed2eff8b286d5d5a" category="list-text">QoS 監視器記憶體已滿</block>
+  <block id="42f9362e8f5c9f627583fcae61bb3009" category="list-text">偵測到勒索軟體活動</block>
+  <block id="5a78f645e146f5884b1aeddc8a377465" category="list-text">儲存池遷移失敗</block>
+  <block id="900dfdc7aa5e2e4d21e8e383a7bc5695" category="list-text">新增了ONTAP調解器</block>
+  <block id="117612d2385e596d10a53e879fd9c6d4" category="list-text">ONTAP調解器無法存取</block>
+  <block id="984ffe90674a334608f6dc29eea93d0f" category="list-text">ONTAP調解器無法存取</block>
+  <block id="b13dc84e8bf07544983a0f1bcc9bacfd" category="list-text">ONTAP調解器已移除</block>
+  <block id="7ca3fa8cbb818f2b752b180a8f6578c8" category="list-text">READDIR 逾時</block>
+  <block id="74cd200ec793ce967454bab4df21e86f" category="list-text">SAN「主動-主動」狀態已改變</block>
+  <block id="6d298824911962a6173e9856bea08969" category="list-text">服務處理器心跳遺失</block>
+  <block id="e31c7c626929cffcd19eb25ea3d48bcf" category="list-text">服務處理器心跳停止</block>
+  <block id="9e893917a086c9211a69e94cfdbc6de7" category="list-text">服務處理器離線</block>
+  <block id="2eefb727adf8f00ed6c0c06f0de04bee" category="list-text">未配置服務處理器</block>
+  <block id="fa95406e3f6be61a90c80d07495392ab" category="list-text">陰影複製失敗</block>
+  <block id="2e6c8588eca8579ea3d901edba5187c5" category="list-text">FC 目標適配器中的 SFP 接收低功率</block>
+  <block id="e3f46f77f673c669dbf7591bf3714534" category="list-text">FC 目標轉接器中的 SFP 傳輸低功率</block>
+  <block id="87bcf69ffc1341c3e738e6f5f0829b89" category="list-text">擱架風扇故障</block>
+  <block id="129eccbd447ee5ec6db178923e1e891b" category="list-text">SMBC CA 憑證已過期</block>
+  <block id="542f0de59690111da4c9cfe4b7839228" category="list-text">SMBC CA 憑證即將過期</block>
+  <block id="fcfb955a42ea6727cf9655dfcbc95b29" category="list-text">SMBC 用戶端憑證已過期</block>
+  <block id="6ef327b672c485123c9bcc462d256668" category="list-text">SMBC 用戶端憑證即將過期</block>
+  <block id="2cb36dc8e68ee54aec697f86f2d4b12d" category="list-text">SMBC關係不同步</block>
+  <block id="8a892c6a7fdca0a74894c6fd035d9f73" category="list-text">SMBC 伺服器憑證已過期</block>
+  <block id="11646092abadafa9bf54db871c93d36a" category="list-text">SMBC 伺服器憑證即將過期</block>
+  <block id="357da3c15f5b4166ed1b9756ef219e71" category="list-text">SnapMirror關係不同步</block>
+  <block id="ae68c6c4c6cae7459282877916f7239d" category="list-text">儲存交換器電源故障</block>
+  <block id="5b18b77cd9a23623241f767e7e3dda1f" category="list-text">儲存虛擬機器反勒索軟體監控</block>
+  <block id="f227b1f80874035c71dc8b251f697d06" category="list-text">儲存虛擬機器停止成功</block>
+  <block id="4fc7fee1a16781be47a8fcb65bbf6c32" category="list-text">由於主機風扇故障，系統無法運作</block>
+  <block id="df9077cd90f3562314293fe500b45638" category="list-text">CIFS 身份驗證過多</block>
+  <block id="211ffae8cf271f4086db6aa84fe1dcff" category="list-text">未分配的磁碟</block>
+  <block id="5d20854d3722e028d9bf19a7825780ec" category="list-text">未經授權的使用者存取管理員共享</block>
+  <block id="fd336287253648f0aff675505ba26228" category="list-text">檢測到病毒</block>
+  <block id="ffeaca4f7d6a46d7049fc8e2b7f0b27b" category="list-text">反勒索軟體監控量</block>
+  <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">磁碟區自動調整大小成功</block>
+  <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">卷離線</block>
+  <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">音量受限</block>
+  <block id="79f36a1cf2d28dc09a5c06d96f5fc526" category="inline-link">ONTAP系統管理員深入了解容量、安全性和設定問題</block>
+  <block id="b433a03cbe41f57ebb306c3f7c73f769" category="paragraph">有關ONTAP警報的詳細信息，請參閱ONTAP文件和ONTAP System Manager 見解，網址為<block ref="54212393114a0de7994bf970936414f9" category="inline-link-rx"></block>。</block>
+  <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">查看ONTAP儲存問題</block>
+  <block id="57a624113e37868bd2b6fb20c73ad033" category="paragraph">發現後，「警報清單」頁面將顯示ONTAP系統中的警報清單。</block>
+  <block id="289010f9c9e24d4f5f19f962dc4bca76" category="paragraph">事件發生和ONTAP警報顯示之間可能會有延遲。</block>
+  <block id="edf8cb82991154f2e9d942bdccaeef0a" category="list-text">在警報清單頁面中，您可以查看並執行下列任一操作：</block>
+  <block id="77ed20769d8fd734bacb2c2c1433f364" category="list-text">透過選擇列的向上或向下箭頭來變更排序順序。</block>
+  <block id="b7fb9d0113e25b01750477e170f85124" category="list-text">更改列中的過濾器以僅顯示您想要的資訊。</block>
+  <block id="c61436e6bf0a41b39ab2a42fbf9e0644" category="admonition">例如，您可能只想查看與容量相關的警報。為此，請選擇影響區域列上的過濾器圖標，選擇*容量*，然後選擇*套用*。</block>
+  <block id="0f7a9a7a2a6073b4490fabb339f41057" category="inline-image-macro">顯示影響區域過濾器的警報頁面</block>
+  <block id="4df898e17ef9f4529b1a38042a44e337" category="paragraph"><block ref="4df898e17ef9f4529b1a38042a44e337" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="965f7cc3cce0fc10d5fd67a7338c6f10" category="list-text">下載包含警報訊息的 CSV 檔案。</block>
+  <block id="b2bb87d2f0e54538ffcdb7880272c3c0" category="paragraph">您最多可以下載 1000 個警報。該文件包含基於所設定的過濾器的資料。</block>
+  <block id="604c259e3085d2c3dad6172279d966f1" category="list-text">選擇一個警報並深入了解該群集的警報詳細資訊。看<block ref="ff1222310cdf9ce1470b755c227ba3f7" category="inline-link-macro-rx"></block> 。</block>
+  <block id="33de25aa7e1450dd642e3110fbfba371" category="summary">使用NetApp警報，您可以查看工作負載健康狀況並保護工作負載。</block>
+  <block id="353efa3fb015ae41a4e136bcf6f333a0" category="doc">查看ONTAP警報概述</block>
+  <block id="af5da82ced2516c24987fa3c5a97718f" category="paragraph">查看儲存問題並透過直接指向ONTAP系統管理員的連結查看詳細資訊。</block>
+  <block id="80fa54cf61509d05cee17d35aa111523" category="inline-link-macro">從警報清單頁面查看儲存問題或潛在風險</block>
+  <block id="bada944ff97ccc6bdb03a0eefe48c7b0" category="list-text"><block ref="100690e5bc3f66329368008c6eec575d" category="inline-link-macro-rx"></block> 。</block>
+  <block id="ad29d7223b052b52094346c5131f1f7e" category="inline-link-macro">查看ONTAP系統管理員中連結的警報詳細信息</block>
+  <block id="1f3f09ac713ab8392e024228b0b44ff7" category="list-text"><block ref="7c6bc72b6c4331f5d897fabdaf57cdec" category="inline-link-macro-rx"></block> 。</block>
+  <block id="14bf4338e4fd5a6e020ec983bdd13812" category="summary">查看NetApp ONTAP環境中與容量、效能、可用性和安全性相關的問題或潛在風險。您可以使用ONTAP系統管理員深入了解詳細資訊。</block>
+  <block id="9d2b40facc9224b59ee1621ffc31f162" category="doc">了解ONTAP警報</block>
+  <block id="cca5537ab31be6691dfbd0a690cf4f76" category="paragraph">使用NetApp Console查看NetApp本機ONTAP系統中的問題或潛在風險。您可以使用ONTAP系統管理員深入了解詳細資訊。</block>
+  <block id="15892c8fcdf51608a11f74d5f6b65d0a" category="paragraph">在NetApp Console中查看ONTAP警報。</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。</block>
+  <block id="833eb8b57934db86bf701c856b5dc107" category="paragraph">您不需要許可證或訂閱即可開始使用NetApp Console，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。</block>
+  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">詳細了解<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
+  <block id="6b4a9cdd15d4833f07dcd8d873f69639" category="section-title">ONTAP警報的作用</block>
+  <block id="38d1905cf9fc85a2ad2c4a9d4ac94b54" category="paragraph">查看ONTAP警報以隨時了解ONTAP儲存系統中的風險或潛在風險。您可以看到一些非 EMS 警報和一些 EMS 警報。您可以查看有關這些嚴重程度和影響區域的資訊：</block>
+  <block id="6f8378cd5e88ebcc5f99f344c6d22de6" category="list-text">*影響領域*：容量、效能、保護、可用性、安全性、配置</block>
+  <block id="d97af41823a48f31d06b2f724136c67a" category="admonition">NetApp ConsoleUI 右上角的「通知」選項可監視NetApp Console正在執行的操作的狀態，以協助您識別需要解決的問題。您可以將這些通知發送到您的電子郵件信箱。通知選項不包括來自ONTAP警報的警報。</block>
+  <block id="1162c7016f8c207f9e76f68218170602" category="section-title">監控ONTAP警報的好處</block>
+  <block id="c0ab29ad8d25499353e25e7928a554ef" category="paragraph">監控ONTAP警報具有以下好處：</block>
+  <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">取得有關跨叢集的ONTAP儲存的警報。</block>
+  <block id="0fd53d897c27d7f57da79f9401f3a249" category="list-text">在用於其他服務的相同NetApp ConsoleUI 中查看警報。</block>
+  <block id="263b87ff37b84a7585057d0b04b38209" category="list-text">深入了解ONTAP叢集的警報 - 從NetApp Console開始並在ONTAP系統管理器中查看詳細資訊。</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="f4965c87fc2be266595e607eab2be2d4" category="paragraph">您可以使用NetApp ONTAP許可證查看ONTAP警報。</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
+  <block id="c126539a209e58d40e513dbcfc366ecc" category="paragraph">查看ONTAP警報需要NetApp ONTAP 9.10 或更高版本的授權。</block>
+  <block id="8b06ddb0fe76c22ecf1186ad08677d1a" category="paragraph">您不需要試用許可證。</block>
+  <block id="cb759ff26404c83e6ecc0bdceea307bd" category="paragraph">ONTAP警報只能在NetApp Console標準（公共）模式下查看。</block>
+  <block id="7a1ad6118ee4ffeee81a98b7f16b0dc7" category="section-title">ONTAP警報的工作原理</block>
+  <block id="3671052f7a6d697cc71f6f5a92b5acb6" category="paragraph">ONTAP警報是NetApp Console的核心元件。  ONTAP警報監控ONTAP叢集並從ONTAP接收警報資料。</block>
+  <block id="9757db2092aafddd0a3f1955f1f7da01" category="paragraph">ONTAP警報僅在NetApp Console SaaS 環境中可用。它在本機控制台代理 UI 中不可用。</block>
+  <block id="14d419d6dcfdbca61341f104ce611d2c" category="section-title">支援的系統和資料來源</block>
+  <block id="68b9997c144b073b7e3012bcf2a1f544" category="paragraph">使用ONTAP警報檢查以下系統和資料來源中的問題。</block>
+  <block id="12580a939d76b1c9627e5afe922f33a6" category="paragraph">*支援的系統*</block>
+  <block id="5ef0116072151054af2de9fa50c12a3e" category="paragraph">支援本機ONTAP NAS 或 SAN 系統。</block>
+  <block id="83cbf5349baccbdd5f07abf4dc8ebebe" category="paragraph">目前不支援Cloud Volumes ONTAP系統。</block>
+  <block id="7133c14b211d52731ad6f21655c0ec9b" category="paragraph">*支援的資料來源*</block>
+  <block id="e386436f15048683d3f17d234b4e411c" category="paragraph">查看有關ONTAP中發生的某些事件的警報。它們是 EMS 和基於指標的警報的組合。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供對版權聲明、商標、專利等的存取。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 標誌和NetApp商標頁面上列出的標誌是NetApp, Inc. 的商標。其他公司和產品名稱可能是其各自所有者的商標。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp擁有的專利的最新清單可在以下位置找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有關NetApp軟體中使用的第三方版權和許可的資訊。</block>
+  <block id="b56253bf92505bda20b38657c778bccf" category="doc">此處顯示頁面標題</block>
+  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">將此模板用於文章、主題，無論您如何稱呼它們。index.adoc 檔案沒有文章頁面的正確關鍵字，將其用作範本可能會導致以後的發布問題。</block>
+  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">首次發布之前刪除此文件，因為即使該文件未連結到側邊欄，它也會發布。創建幾篇文章後，您可以將它們用作入門文章。</block>
+  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">如果您的文章位於內容子資料夾中，則需要對上面顯示的符號進行兩處調整：</block>
+  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
+  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
+  <block id="ec9b6697280bcdc6fe73fb1fbd87cdc5" category="summary">了解ONTAP警報中的新功能。</block>
+  <block id="a673b2ca97bcca9331de3680fc82c16f" category="doc">ONTAP警報的新增功能</block>
+  <block id="977ad12cba726d5c33afdf02961c3aea" category="paragraph">了解ONTAP警報中的新功能。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="f66c63cf0ff76c19209f85ca687a2fb4" category="section-title">2024年10月7日</block>
+  <block id="f2a8f58f0f128419df337978a7a64994" category="sidebar">查看NetApp ONTAP環境中與容量、效能、保護、可用性和安全性相關的問題或潛在風險。您可以深入了解警報詳細資訊並查看連結到ONTAP系統管理員的叢集資訊。</block>
+  <block id="d1fca79bfd86ae1b8808b2d54c4557cb" category="sidebar">ONTAP警報文檔</block>
+  <block id="ddefdbd3b098417cfb2da526db122d7c" category="sidebar">查看NetApp ONTAP環境中的問題或潛在風險。您可以使用ONTAP系統管理員深入了解警報詳細資訊並查看叢集資訊。</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始</block>
+  <block id="64c70ecb73ac830adabb5c7192ca5c07" category="sidebar">ONTAP警報的新增功能</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">先決條件</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速啟動</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常問問題</block>
+  <block id="21b7cdb7a1c1ad390e0127aaf40f1116" category="sidebar">使用ONTAP警報</block>
+  <block id="f1d6603348ae1d768d44db0a4ef65c7c" category="sidebar">使用警報清單頁面查看工作負載健康狀況</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格和社區</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="e27d74cac0b21f8d8572363e7cd5e68e" category="sidebar">ONTAP警報文檔</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">發行說明</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
+  <block id="17b76c30a93a18ec82fdbf45ed64d83a" category="sidebar">查看ONTAP儲存中的潛在風險</block>
+  <block id="58db646924e7031ea878a1e0f5aaf2c6" category="sidebar">查看儲存系統中的警報</block>
+</blocks>
