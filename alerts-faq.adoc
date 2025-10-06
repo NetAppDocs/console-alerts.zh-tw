@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: 如果您只是想快速找到問題的答案，那麼這個NetApp警報常見問題解答可以為您提供協助。 
+---
+= NetApp警報常見問題解答
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您只是想快速找到有關NetApp警報問題的答案，此常見問題解答可以提供協助。
+
+
+
+== 存取NetApp警報
+
+* NetApp警報 URL 是什麼？ *對於 URL，在瀏覽器中輸入： https://console.netapp.com/["https://console.netapp.com/"^]存取NetApp控制台。
+
+*您需要許可證才能使用NetApp警報嗎？ *
+
+使用NetApp警報需要NetApp ONTAP 9.10 或更高版本的授權。許可證不需要輸入到NetApp Console 數位錢包。
+
+您不需要擁有NetApp警報的試用授權。
+
+*如何啟用NetApp警報？ * NetApp警報不需要任何啟用。警報選項會在NetApp控制台左側導覽中自動啟用。
+
+首先，當您使用控制台代理時，它將包含適合NetApp警報的功能。
+
+** NetApp警報是否在標準、受限和私有模式下可用？ **  NetApp警報只能部署在NetApp控制台標準（公共）。
+
+有關所有NetApp控制台服務中這些模式的說明，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["NetApp控制台部署模式"^]。
+
+**如何處理存取權限？ **只有NetApp控制台組織管理員才有能力啟動NetApp警報並發現工作負載（因為這涉及承諾使用資源）。
+
+根據登入使用者對該NetApp控制台組織中叢集資源的存取權限，向他們顯示警報。
+
+
+
+== 查看警報
+
+**我需要等待多久才能開始收到警報？ **
+
+等待最多 15 分鐘進行初始發現，然後等待最多 5 分鐘警報才會出現。各個警報之間有所不同。
+
+**為什麼在沒有控制台代理的情況下無法使用直接模式查看ONTAP警報？ *
+
+NetApp警報僅可使用內部標準控制台代理程式取得。使用直接模式不會監控集群，也不會顯示警報。
+
+**為什麼有些警報從警報列表頁面消失了？ **
+
+警報功能可使某些警報保持活動狀態，並在滿足計數器條件或達到一定時間段後關閉它們。各個警報之間有所不同。
+
+若要查看所有警報，請選擇“狀態”列過濾器並選擇“已關閉”選項。
+
+
+
+== 資訊顯示
+
+**什麼設備解析度最好？ **  NetApp警報的建議設備解析度為 1920x1080 或更高。
+
+**我該使用哪種瀏覽器？ **任何現代瀏覽器都可以使用。

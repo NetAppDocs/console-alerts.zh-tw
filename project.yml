@@ -1,0 +1,47 @@
+---
+settings:
+  name: ONTAP alerts
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+    lipi_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: ONTAP警報文檔
+    url: "/index.html"
+  - title: 發行說明
+    entries:
+    - title: 什麼是新的
+      url: "/whats-new.html"
+  - title: 開始
+    entries:
+    - title: 了解ONTAP警報
+      url: "/concept-alerts.html"
+    - title: 先決條件
+      url: "/alerts-start-prerequisites.html"
+    - title: 快速啟動
+      url: "/alerts-start-quick-start.html"
+    - title: 設定ONTAP警報
+      url: "/alerts-start-setup.html"
+    - title: 訪問ONTAP警報
+      url: "/alerts-start-login.html"
+  - title: 使用ONTAP警報
+    entries:
+    - title: 查看ONTAP警報概述
+      url: "/alerts-use-overview.html"
+    - title: 查看ONTAP儲存中的潛在風險
+      url: "/alerts-use-dashboard.html"
+    - title: 查看儲存系統中的警報
+      url: "/alerts-use-alerts.html"
+  - title: 常問問題
+    url: "/alerts-faq.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

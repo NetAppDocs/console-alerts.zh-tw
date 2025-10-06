@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-quick-start.html 
+keywords: how to get started with bluexp alerts, alerts quick start, netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
+summary: 只需幾個步驟即可開始使用ONTAP警報。 
+---
+= ONTAP警報快速啟動
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+以下是開始使用ONTAP警報所需步驟的概述。每個步驟中的連結都會將您帶到提供更多詳細資訊的頁面。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"]審查先決條件
+[role="quick-margin-para"]
+link:alerts-start-prerequisites.html["確保您的環境符合這些要求"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"]設定ONTAP警報
+[role="quick-margin-para"]
+link:alerts-start-setup.html["在NetApp控制台中配置控制台代理"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"]下一步是什麼？
+[role="quick-margin-para"]
+設定ONTAP警報後，您可以執行以下操作。
+
+[role="quick-margin-list"]
+* link:alerts-use-dashboard.html["在警報清單頁面查看儲存問題和潛在風險"] 。
+* link:alerts-use-alerts.html["在ONTAP系統管理器中查看警報詳細信息"] 。
+

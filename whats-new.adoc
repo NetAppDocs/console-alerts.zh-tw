@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
+summary: 了解ONTAP警報中的新功能。 
+---
+= ONTAP警報的新增功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解ONTAP警報中的新功能。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP alerts現已升級ONTAP警報
+
+BlueXP alerts已重新命名為ONTAP警報。
+
+您可以透過選擇「NetApp控制台」左側導覽列中的「*儲存*」>「*警報*」來存取它。
+
+
+
+=== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+== 2024年10月7日
+
+
+
+=== BlueXP alerts清單頁面
+
+您可以快速識別容量低或效能低的ONTAP叢集、評估可用性程度並識別安全風險。您可以查看與容量、效能、保護、可用性、安全性和配置相關的警報。
+
+
+
+=== 警報詳情
+
+您可以深入了解警報詳細資訊並找到建議。
+
+
+
+=== 查看連結到ONTAP System Manager 的叢集詳細信息
+
+透過BlueXP alerts，您可以查看與ONTAP儲存環境相關的警報並深入了解與ONTAP系統管理員相關的詳細資訊。
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["了解BlueXP alerts"] 。

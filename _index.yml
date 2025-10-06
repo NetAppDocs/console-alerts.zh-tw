@@ -1,0 +1,35 @@
+---
+indexpage:
+  title: ONTAP警報文檔
+  summary: 查看NetApp ONTAP環境中的問題或潛在風險。您可以使用ONTAP系統管理員深入了解警報詳細資訊並查看叢集資訊。
+  keywords: bluexp, ONTAP, alerts, system manager
+  lead: 查看NetApp ONTAP環境中與容量、效能、保護、可用性和安全性相關的問題或潛在風險。您可以深入了解警報詳細資訊並查看連結到ONTAP系統管理員的叢集資訊。
+  tiles:
+  - title: 開始
+    links:
+    - title: 了解ONTAP警報
+      url: "/concept-alerts.html"
+    - title: ONTAP警報的新增功能
+      url: "/whats-new.html"
+    - title: 先決條件
+      url: "/alerts-start-prerequisites.html"
+    - title: 快速啟動
+      url: "/alerts-start-quick-start.html"
+    - title: 設定ONTAP警報
+      url: "/alerts-start-setup.html"
+    - title: 常問問題
+      url: "/alerts-faq.html"
+  - title: 使用ONTAP警報
+    links:
+    - title: 查看ONTAP警報概述
+      url: "/alerts-use-overview.html"
+    - title: 使用警報清單頁面查看工作負載健康狀況
+      url: "/alerts-use-dashboard.html"
+  - title: 部落格和社區
+    links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp資料服務
+      url: https://www.netapp.com/data-services/
+    - title: NetApp社群
+      url: https://community.netapp.com

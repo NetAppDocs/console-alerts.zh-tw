@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-alerts.html 
+keywords: alerts, ontap, netapp, system manager, bluexp 
+summary: 透過NetApp警報，您可以查看與ONTAP儲存系統相關的警報並深入了解與ONTAP系統管理員相關的詳細資訊。 
+---
+= 查看ONTAP儲存系統中的警報詳細信息
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+查看與您的ONTAP儲存系統相關的警報並深入了解詳細資訊。
+
+
+
+== 查看警報詳細信息
+
+. link:alerts-start-login.html["登入NetApp控制台"] 。
+. 從控制台左側導覽列中，選擇“*儲存*”>“*警報*”。
+. 從警報清單頁面中選擇警報。
++
+image:alerts-detail.png["警報詳細信息"]
+
+. 向下捲動以尋找建議的糾正措施。
+. 向下捲動以尋找與發出警報的物件相關的其他警報。
+
+
+
+
+== 在ONTAP System Manager 中查看有關叢集的詳細信息
+
+. 從警報清單頁面中選擇警報。
+. 從警報中，選擇頁面頂部的叢集名稱。
++
+ONTAP系統管理員現在會顯示有關叢集的資訊。
+
+

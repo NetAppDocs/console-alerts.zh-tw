@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts 
+summary: 透過驗證對您的環境、網路存取、登入和 Web 瀏覽器的支援來開始使用ONTAP警報。 
+---
+= ONTAP警報前提條件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+透過驗證操作環境的準備情況來開始使用ONTAP警報。
+
+要查看ONTAP警報，您需要滿足以下先決條件：
+
+* ONTAP 9.10 及更高版本。必須在NetApp控制台系統頁面中發現內部部署系統。
++
+** 叢集管理員ONTAP權限
++
+許可證不需要輸入到NetApp Console 數位錢包。
+
+
+
+* 在NetApp控制台中：
++
+** 具有NetApp本機 NAS 或 SAN 儲存的NetApp控制台系統
+** 必須在NetApp控制台中設定本機區域的控制台代理程式。參考 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["NetApp Console 文件用於設定控制台代理"^]。
++
+如果從控制台代理中刪除集群，則與該集群相關的警報將保留 90 天。此外，如果您變更控制台代理，警報仍會與原始叢集和代理保持關聯 90 天。如果您返回原始代理，您將再次看到這些警報。
+
+** 一個NetApp控制台組織，其中至少有一個活動控制台代理連接到本地ONTAP叢集。所有來源和系統必須位於同一個NetApp控制台組織中。
+** 該組織中具有組織管理員權限的NetApp控制台用戶，可以發現資源
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準NetApp控制台要求"^]
+
+
+
