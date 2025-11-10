@@ -2,7 +2,7 @@
 indexpage:
   title: ONTAP警報文檔
   summary: 查看NetApp ONTAP環境中的問題或潛在風險。您可以使用ONTAP系統管理員深入了解警報詳細資訊並查看叢集資訊。
-  keywords: bluexp, ONTAP, alerts, system manager
+  keywords: NetApp Console, ONTAP, alerts, system manager, bluexp
   lead: 查看NetApp ONTAP環境中與容量、效能、保護、可用性和安全性相關的問題或潛在風險。您可以深入了解警報詳細資訊並查看連結到ONTAP系統管理員的叢集資訊。
   tiles:
   - title: 開始
