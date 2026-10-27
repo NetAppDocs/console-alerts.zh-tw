@@ -16,6 +16,7 @@ summary: 如果您只是想快速找到問題的答案，那麼這個NetApp警�
 
 
 
+[[access-to-netapp-alerts]]
 == 存取NetApp警報
 
 * NetApp警報 URL 是什麼？ *對於 URL，在瀏覽器中輸入： https://console.netapp.com/["https://console.netapp.com/"^]存取NetApp Console。
@@ -40,6 +41,7 @@ summary: 如果您只是想快速找到問題的答案，那麼這個NetApp警�
 
 
 
+[[view-alerts]]
 == 查看警報
 
 **我需要等待多久才能開始收到警報？ **
@@ -58,6 +60,7 @@ NetApp警報僅可使用內部標準控制台代理程式取得。使用直接�
 
 
 
+[[display-of-information]]
 == 資訊顯示
 
 **什麼設備解析度最好？ **  NetApp警報的建議設備解析度為 1920x1080 或更高。

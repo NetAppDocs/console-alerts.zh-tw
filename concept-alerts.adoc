@@ -4,7 +4,7 @@ permalink: concept-alerts.html
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts 
 summary: 查看NetApp ONTAP環境中與容量、效能、可用性和安全性相關的問題或潛在風險。您可以使用ONTAP系統管理員深入了解詳細資訊。 
 ---
-= 了解ONTAP警報
+= 在 NetApp Console 中了解 ONTAP 警報
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,18 +18,20 @@ summary: 查看NetApp ONTAP環境中與容量、效能、可用性和安全性�
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 在NetApp Console中查看ONTAP警報。
 
 NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
 
-您不需要許可證或訂閱即可開始使用NetApp Console，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
+您無需授權或訂閱即可開始使用 NetApp Console，只有當您需要在雲端部署 Console 代理程式以確保與儲存系統或 NetApp 資料服務的連線時，才會產生費用。但是，某些可從 Console 存取的 NetApp 資料服務是需要授權或訂閱的。
 
 詳細了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"]。
 
 
 
+[[what-you-can-do-with-ontap-alerts]]
 == ONTAP警報的作用
 
 查看ONTAP警報以隨時了解ONTAP儲存系統中的風險或潛在風險。您可以看到一些非 EMS 警報和一些 EMS 警報。您可以查看有關這些嚴重程度和影響區域的資訊：
@@ -43,6 +45,7 @@ TIP: NetApp ConsoleUI 右上角的「通知」選項可監視NetApp Console正�
 
 
 
+[[benefits-of-monitoring-ontap-alerts]]
 == 監控ONTAP警報的好處
 
 監控ONTAP警報具有以下好處：
@@ -54,12 +57,14 @@ TIP: NetApp ConsoleUI 右上角的「通知」選項可監視NetApp Console正�
 
 
 
+[[cost]]
 == 成本
 
 您可以使用NetApp ONTAP許可證查看ONTAP警報。
 
 
 
+[[licensing]]
 == 授權
 
 查看ONTAP警報需要NetApp ONTAP 9.10 或更高版本的授權。
@@ -70,6 +75,7 @@ ONTAP警報只能在NetApp Console標準（公共）模式下查看。
 
 
 
+[[how-ontap-alerts-work]]
 == ONTAP警報的工作原理
 
 ONTAP警報是NetApp Console的核心元件。  ONTAP警報監控ONTAP叢集並從ONTAP接收警報資料。
@@ -78,6 +84,7 @@ ONTAP警報僅在NetApp Console SaaS 環境中可用。它在本機控制台代�
 
 
 
+[[supported-systems-and-data-sources]]
 == 支援的系統和資料來源
 
 使用ONTAP警報檢查以下系統和資料來源中的問題。

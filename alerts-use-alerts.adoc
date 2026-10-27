@@ -4,7 +4,7 @@ permalink: alerts-use-alerts.html
 keywords: alerts, ontap, netapp, system manager, bluexp 
 summary: 透過NetApp警報，您可以查看與ONTAP儲存系統相關的警報並深入了解與ONTAP系統管理員相關的詳細資訊。 
 ---
-= 查看ONTAP儲存系統中的警報詳細信息
+= 在 NetApp Console 中檢視 ONTAP 儲存系統的警報詳細資料
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -16,6 +16,7 @@ summary: 透過NetApp警報，您可以查看與ONTAP儲存系統相關的警報
 
 
 
+[[view-alert-details]]
 == 查看警報詳細信息
 
 . link:alerts-start-login.html["登入NetApp Console"] 。
@@ -30,6 +31,7 @@ image:alerts-detail.png["警報詳細信息"]
 
 
 
+[[view-details-about-the-cluster-in-ontap-system-manager]]
 == 在ONTAP System Manager 中查看有關叢集的詳細信息
 
 . 從警報清單頁面中選擇警報。

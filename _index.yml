@@ -21,10 +21,10 @@ indexpage:
       url: "/alerts-faq.html"
   - title: 使用ONTAP警報
     links:
-    - title: 查看ONTAP警報概述
-      url: "/alerts-use-overview.html"
     - title: 使用警報清單頁面查看工作負載健康狀況
       url: "/alerts-use-dashboard.html"
+    - title: 查看儲存系統中的警報
+      url: "/alerts-use-alerts.html"
   - title: 部落格和社區
     links:
     - title: NetApp Console

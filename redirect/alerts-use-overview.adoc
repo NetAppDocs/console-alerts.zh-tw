@@ -1,0 +1,8 @@
+---
+permalink: alerts-use-overview.html 
+redirect: console-alerts/alerts-use-dashboard.html 
+---
+= 
+:allow-uri-read: 
+
+

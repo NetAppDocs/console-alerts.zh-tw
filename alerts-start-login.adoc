@@ -4,7 +4,7 @@ permalink: alerts-start-login.html
 keywords: NetApp Console login, log in, ontap, netapp 
 summary: 透過存取NetApp Console中的ONTAP警報開始使用ONTAP警報。 
 ---
-= 訪問ONTAP警報
+= 在 NetApp Console 中存取 ONTAP 警報
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
